@@ -1,0 +1,48 @@
+//ATM Program Pesudo code
+//Simulate banking activities
+//Dominick Monaco
+//12/2/17
+
+void setup() {
+	checkaccounts()
+}
+	
+void draw() {
+
+	pin = getInput
+	if(account.pin = pin) {
+		switch(userkey)
+		{
+			case deposit:
+				amount = getInput
+				balance += amount
+				break;
+			case withdraw:
+				amount = getInput
+				if(amount >= balance)
+					print (not enough)
+				else
+					balance -= amount
+				break;
+			case transfer:
+				transferToAcc = getInput
+				amount = getInput
+				if(amount >= balance)
+					print (not enough)
+				else
+					balance -= amount
+					transferToAcc.balance += amount
+				break;
+			case balance:
+				text(balance)
+		}
+	}
+}
+class account {
+	int balance
+	String pin
+	void deposit(int amount)
+	void withdraw(int amount)
+	void transfer(account trans2, int amount)
+	public balance(int balance, String pin)
+}
